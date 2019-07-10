@@ -1,0 +1,30 @@
+{
+    "name": "GraphQL-React-Apollo",
+    "version": "1.0.0",
+    "description": "Full Stack GraphQL React Express and MongoDB",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "scripts": {
+        "dev": "nodemon index.js --ignore client"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.16.0",
+        "connect-mongo": "^1.3.2",
+        "express": "^4.14.0",
+        "express-graphql": "^0.6.1",
+        "express-session": "^1.15.0",
+        "graphql": "^0.8.2",
+        "lodash": "^4.17.4",
+        "mongoose": "^4.7.8",
+        "passport": "^0.3.2",
+        "passport-local": "^1.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.1"
+    }
+}
